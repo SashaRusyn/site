@@ -1,0 +1,82 @@
+.contact-container {
+    position: absolute;
+    top: 295px;
+    left: 403px;
+    width: 1114px;
+    height: 722px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: black;
+}
+
+.contact-text {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 26px;
+    margin-bottom: 0px;
+}
+
+.input1 {
+    position: relative;
+    left: 122px;
+    top: 30px;
+    height: 75px;
+    width: 840px;
+    border-radius: 20px;
+    font-size: 22px;
+    background-color: #d9d9d9;
+    border: 1px solid black;
+    padding-left: 30px;
+}
+
+.input2 {
+    position: relative;
+    left: 122px;
+    top: 30px;
+    height: 75px;
+    width: 840px;
+    border-radius: 20px;
+    font-size: 22px;
+    background-color: #d9d9d9;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.submit-data-contact {
+    height: 86px;
+    width: 304px;
+    top: 600px;
+    left: 407px;
+    position: absolute;
+    background-color: #5d69a5;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-text {
+    font-size: 39px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.input1::placeholder .input2::placeholder {
+    color: rgba(208, 0, 0, 1);
+    font-size: 22px;
+}
+
+.contact-container textarea {
+    height: 141px;
+    position: relative;
+    left: 122px;
+    top: 30px;
+    width: 840px;
+    border-radius: 20px;
+    font-size: 22px;
+    background-color: #d9d9d9;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding-left: 30px;
+}
